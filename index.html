@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="swiper.css">
+    <link rel="stylesheet" href="js.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="mediaquerie.css">
+    <link rel="icon" href="favicon.ico.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="flex">
+            <div class="logo flex">
+                <img src="Logo.png" alt="Logo">
+                <h1>WynkLyra Music</h1>
+            </div>
+            <div class="search_Login flex">
+                <input type="search" placeholder="Search Songs" id="search_bar">
+
+                <button type="submit"> <i class='bx bx-search'></i></button>
+                <div id="login">Login</div>
+                <div id="setting"><i class='bx bx-cog'></i></div>
+            </div>
+        </nav>
+        <div id="search_dropdown">
+            <ul id="search_dropdown_ul">
+                <!-- <li>Arcando _ Maazel - To Be Loved [NCS Release]</li>
+                <li>Henri Werner - Burned [NCS Release]</li>
+                <li>Reece Taylor - Sugar Plumbin_ [NCS Release]</li>
+                <li>Arcando _ Maazel - To Be Loved [NCS Release]</li>
+                <li>Arcando _ Maazel - To Be Loved [NCS Release]</li>
+                <li>Arcando _ Maazel - To Be Loved [NCS Release]</li>
+                <li>Arcando _ Maazel - To Be Loved [NCS Release]</li>
+                <li>Arcando _ Maazel - To Be Loved [NCS Release]</li>
+                <li>T-Mass _ Rain Man - Follow (feat. Vikki Gilmore) [NCS Release]</li> -->
+            </ul>
+        </div>
+
+
+        <div class="drop-downs flex">
+            <span style="color: white;">All</span>
+
+            <div class="trending-drop-down flex relative">
+                <span class="drop-down">Trending Now <i class='bx bxs-down-arrow'></i></span>
+                <ul>
+                    <li>Kolaveridi</li>
+                    <li>Let Me down</li>
+                    <li>Love me</li>
+                    <li>Let do party</li>
+                    <li>Levitating</li>
+                </ul>
+            </div>
+
+            <span class="drop-down">Old Songs</span>
+            <span class="drop-down">New Songs</span>
+            <div class="mood_genre-drop-down flex relative">
+                <span class="drop-down">Mood & Genre <i class='bx bxs-down-arrow'></i></span>
+                <ul>
+                    <li class="relative comedy_drop_li">
+                        <a href="#" style="color:white;">Comedy</a>
+                        <div class="Comedy_drop_down absolute">
+                            <ul>
+                                <li>Masti</li>
+                                <li>Maza</li>
+                                <li>Fun</li>
+                                <li>Enjoy</li>
+                                <li>Joy</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>Horror</li>
+                    <li>Love</li>
+                    <li>Crazy</li>
+                    <li>Sad</li>
+                </ul>
+            </div>
+            <span class="drop-down">Top Albums</span>
+
+
+            <div class="top_artist-drop-down flex relative">
+                <span class="drop-down"> Top Artist<i class='bx bxs-down-arrow'></i></span>
+                <ul>
+                    <li>Arijit Singh</li>
+                    <li>Milkha Singh</li>
+                    <li>Justin Beiber</li>
+                    <li>Dua Lipa</li>
+                    <li>Sherya Ghosal</li>
+                    <li>Justin Trudeo</li>
+                    <li>Anny</li>
+                    <li>Arura</li>
+                </ul>
+            </div>
+
+
+            <span class="drop-down"> Podcast</span>
+        </div>
+    </header>
+
+
+    <section id="section1" class="flex">
+        <div class="container1">
+
+            <div class="songlist flex">
+                <span class="album"><img src="/Image/goldenalbum.png" alt=""></span>
+                <span class="song_name">
+                    <p>Arcando _ Maazel - To Be Loved [NCS Release]</p>
+                </span>
+                <span class="play_pause"><i class='bx bx-play-circle'></i></span>
+            </div>
+
+            <div class="songlist flex">
+                <span class="album"><img src="/Image/goldenalbum.png" alt=""></span>
+                <span class="song_name">
+                    <p>Henri Werner - Burned [NCS Release]</p>
+                </span>
+                <span class="play_pause"><i class='bx bx-play-circle'></i></span>
+            </div>
+
+            <div class="songlist flex">
+                <span class="album"><img src="/Image/goldenalbum.png" alt=""></span>
+                <span class="song_name">
+                    <p>KILLA - Retro Love [NCS Release]</p>
+                </span>
+                <span class="play_pause"><i class='bx bx-play-circle'></i></span>
+            </div>
+
+            <div class="songlist flex">
+                <span class="album"><img src="/Image/goldenalbum.png" alt=""></span>
+                <span class="song_name">
+                    <p>Moav - I Don_t Wanna Know [NCS Release]</p>
+                </span>
+                <span class="play_pause"><i class='bx bx-play-circle'></i></span>
+            </div>
+
+            <div class="songlist flex">
+                <span class="album"><img src="/Image/goldenalbum.png" alt=""></span>
+                <span class="song_name">
+                    <p>Reece Taylor - Sugar Plumbin_ [NCS Release]</p>
+                </span>
+                <span class="play_pause"><i class='bx bx-play-circle'></i></span>
+            </div>
+
+            <div class="songlist flex">
+                <span class="album"><img src="/Image/goldenalbum.png" alt=""></span>
+                <span class="song_name">
+                    <p>ROY KNOX - Closer [NCS Release]</p>
+                </span>
+                <span class="play_pause"><i class='bx bx-play-circle'></i></span>
+            </div>
+
+            <div class="songlist flex">
+                <span class="album"><img src="/Image/goldenalbum.png" alt=""></span>
+                <span class="song_name">
+                    <p>VOLT VISION_ Beneath My Shade - Dangerous [NCS Release]</p>
+                </span>
+                <span class="play_pause"><i class='bx bx-play-circle'></i></span>
+            </div>
+
+            <div class="songlist flex">
+                <span class="album"><img src="/Image/goldenalbum.png" alt=""></span>
+                <span class="song_name">
+                    <p>Zaug - 8 Rounds [NCS Release]</p>
+                </span>
+                <span class="play_pause"><i class='bx bx-play-circle'></i></span>
+            </div>
+
+            <div class="songlist flex">
+                <span class="album"><img src="/Image/goldenalbum.png" alt=""></span>
+                <span class="song_name">
+                    <p>T-Mass _ Rain Man - Follow (feat. Vikki Gilmore) [NCS Release]</p>
+                </span>
+                <span class="play_pause"><i class='bx bx-play-circle'></i></span>
+            </div>
+
+            <div class="songlist flex">
+                <span class="album"><img src="/Image/goldenalbum.png" alt=""></span>
+                <span class="song_name">
+                    <p>T _ Sugah - Indecisive [NCS Release]</p>
+                </span>
+                <span class="play_pause"><i class='bx bx-play-circle'></i></span>
+            </div>
+        </div>
+
+        <div class="container2 flex">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="slide1.jpg" alt="Slide">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="slide2.jpg" alt="Slide">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="slide3.jpg" alt="Slide">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="slide4.jpg" alt="Slide">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="slide5.jpg" alt="Slide">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="slide6.jpg" alt="Slide">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="slide7.jpg" alt="Slide">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="slide8.jpg" alt="Slide">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="slide9.jpg" alt="Slide">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="slide10.jpg" alt="Slide">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- <i class='bx bx-chevron-left-circle'></i>
+           
+            <img src="/Image/slide2.jpg" alt="Slide">
+            <img src="/Image/slide3.jpg" alt="Slide">
+            <img src="/Image/slide4.jpg" alt="Slide">
+            <img src="/Image/slide5.jpg" alt="Slide">
+            <img src="/Image/slide6.jpg" alt="Slide">
+            <img src="/Image/slide7.jpg" alt="Slide">
+            <img src="/Image/slide8.jpg" alt="Slide">
+            <img src="/Image/slide9.jpg" alt="Slide">
+            <img src="/Image/slide10.jpg" alt="Slide">
+            <i class='bx bx-chevron-right-circle'></i> -->
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="section2">
+        <p id="song_name_bottom">Song Name</p>
+        <div class="range_line flex">
+            <span id="starting_time">00:00</span>
+            <input type="range" min="0" max="100" id="range_bar" value="0">
+            <span id="ending_time">00:00</span>
+        </div>
+        <div class="range_play_pause flex">
+            <img id="gif" src="backgroundgif.gif" alt="gif" class="displayNone">
+            <i class='bx bx-rotate-right'></i>
+            <i id="left_song_btn" class='bx bx-skip-next-circle'></i>
+            <i class='pauseButton bx bx-play-circle'></i>
+            <!-- <i class='playButton bx bx-pause-circle'></i> -->
+            <i id="right_song_btn" class='bx bx-skip-next-circle'></i>
+            <i class="fa-solid fa-shuffle"></i>
+
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/d855883c27.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="swiper.js"></script>
+</body>
+
+</html>

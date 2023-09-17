@@ -1,0 +1,497 @@
+@media screen and (max-width: 1100px) {
+    nav {
+        justify-content: space-between;
+        padding: 5px 25px;
+        background-color: rgb(26, 26, 26);
+        color: rgb(217, 217, 217);
+        height: 11vh;
+    }
+
+    .container2 img {
+        left: 21%;
+        position: absolute;
+        width: 446px;
+        height: 280px;
+        border-radius: 10px;
+    }
+
+    .container1 {
+        font-family: 'Poppins', sans-serif;
+        width: 32%;
+        height: 60vh;
+        overflow: auto;
+        background-color: rgb(12, 15, 18);
+        color: whitesmoke;
+    }
+
+    .container2 {
+        width: 68%;
+        height: 60vh;
+        justify-content: space-around;
+        align-items: center;
+        overflow: auto;
+        position: relative;
+        background-color: rgb(12, 15, 18);
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .logo h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+
+    #login {
+        color: rgb(217, 217, 217);
+        font-size: 22px;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+    }
+
+    .songlist {
+        align-items: center;
+        justify-content: space-between;
+        margin: 6px 0px;
+        padding: 0px 3px;
+        cursor: pointer;
+        /* height: 54px; */
+    }
+
+    nav {
+        justify-content: space-between;
+        padding: 5px 25px;
+        background-color: rgb(26, 26, 26);
+        color: rgb(217, 217, 217);
+        height: 11vh;
+    }
+
+    .container2 img {
+        left: 15%;
+        position: absolute;
+        width: 400px;
+        height: 230px;
+        border-radius: 10px;
+        top: 18%;
+    }
+
+    .container1 {
+        font-family: 'Poppins', sans-serif;
+        width: 32%;
+        height: 60vh;
+        overflow: auto;
+        background-color: rgb(12, 15, 18);
+        color: whitesmoke;
+    }
+
+    .container2 {
+        width: 68%;
+        height: 60vh;
+        justify-content: space-around;
+        align-items: center;
+        overflow: auto;
+        position: relative;
+        background-color: rgb(12, 15, 18);
+    }
+
+    .drop-downs {
+        color: rgb(134, 138, 144);
+        justify-content: space-evenly;
+        padding: 10px 25px;
+        background: rgb(12, 15, 18);
+        height: 62px;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        height: 10vh;
+    }
+
+    .drop-downs span {
+        font-size: 13px;
+    }
+
+    .search_Login #setting i {
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        color: rgb(217, 217, 217);
+    }
+
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .search_Login button i {
+        font-size: 17px;
+        opacity: 0.6;
+        color: white;
+    }
+
+    .search_Login input {
+        width: 250px;
+        height: 33px;
+        border-radius: 30px;
+        border: 1px solid rgba(87, 87, 87);
+        padding: 0 20px;
+        font-size: 20px;
+        background-color: rgba(35, 35, 35, .4);
+        outline: none;
+        color: whitesmoke;
+    }
+
+    #section1 {
+        width: 100%;
+    }
+
+    .range_play_pause {
+        position: relative;
+        margin-top: 4px;
+        color: white;
+        justify-content: center;
+        font-size: 30px;
+        gap: 20px;
+    }
+
+    #section2 p {
+        text-align: center;
+        padding: 13px 10px 5px 10px;
+        color: white;
+        font-family: 'Lora', serif;
+        letter-spacing: 1px;
+    }
+
+    .fa-shuffle {
+        margin-top: 1px;
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .logo h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+    }
+
+    #login {
+        color: rgb(217, 217, 217);
+        font-size: 22px;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        display: none;
+    }
+
+    #setting {
+        display: none;
+    }
+
+    .songlist {
+        align-items: center;
+        justify-content: space-between;
+        margin: 6px 0px;
+        padding: 0px 3px;
+        cursor: pointer;
+        height: 54px;
+    }
+
+    nav {
+        justify-content: space-between;
+        padding: 0px 0px;
+        background-color: rgb(26, 26, 26);
+        color: rgb(217, 217, 217);
+        height: 12vh;
+        overflow: hidden;
+    }
+
+    .container2 img {
+        left: 15%;
+        position: absolute;
+        width: 400px;
+        height: 230px;
+        border-radius: 10px;
+        top: 18%;
+    }
+
+    .container1 {
+        font-family: 'Poppins', sans-serif;
+        width: 32%;
+        height: 60vh;
+        overflow: auto;
+        background-color: rgb(12, 15, 18);
+        color: whitesmoke;
+    }
+
+    .container2 {
+        width: 68%;
+        height: 60vh;
+        justify-content: space-around;
+        align-items: center;
+        overflow: auto;
+        position: relative;
+        background-color: rgb(12, 15, 18);
+    }
+
+    .drop-downs {
+        color: rgb(134, 138, 144);
+        justify-content: space-evenly;
+        padding: 10px 7px;
+        background: rgb(12, 15, 18);
+        height: 62px;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        height: 10vh;
+    }
+
+    .drop-downs span {
+        font-size: 13px;
+    }
+
+    .search_Login #setting i {
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        color: rgb(217, 217, 217);
+    }
+
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .search_Login button i {
+        font-size: 17px;
+        opacity: 0.6;
+        color: white;
+    }
+
+    .search_Login input {
+        width: 89%;
+        height: 28px;
+        border-radius: 4px;
+        border: 1px solid rgba(87, 87, 87);
+        padding: 0 26px;
+        font-size: 15px;
+        background-color: rgba(35, 35, 35, .4);
+        outline: none;
+        color: whitesmoke;
+    }
+
+    #section1 {
+        width: 100%;
+    }
+
+    .range_play_pause {
+        position: relative;
+        margin-top: 4px;
+        color: white;
+        justify-content: center;
+        font-size: 30px;
+        gap: 20px;
+    }
+
+    #section2 p {
+        text-align: center;
+        padding: 13px 10px 5px 10px;
+        color: white;
+        font-family: 'Lora', serif;
+        letter-spacing: 1px;
+    }
+
+    .fa-shuffle {
+        margin-top: 1px;
+        font-size: 27px;
+    }
+
+    .search_Login {
+        width: 50%;
+    }
+
+    .search_Login button {
+        background: transparent;
+        border: none;
+        outline: none;
+        position: absolute;
+        bottom: 24px;
+        left: 7px;
+    }
+
+    .search_Login input::placeholder {
+        padding-top: 10px;
+        margin-left: 0px;
+        margin-bottom: 7px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    nav {
+        justify-content: space-between;
+        padding: 0px 0px;
+        background-color: rgb(26, 26, 26);
+        color: rgb(217, 217, 217);
+        height: 12vh;
+        overflow: hidden;
+        gap: 5px;
+    }
+
+    .container2 {
+        display: none;
+        width: 68%;
+        height: 60vh;
+        justify-content: space-around;
+        align-items: center;
+        overflow: auto;
+        position: relative;
+        background-color: rgb(12, 15, 18);
+    }
+
+    .drop-downs {
+        color: rgb(255, 255, 255);
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 6px;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        height: 25px;
+        white-space: nowrap;
+        justify-content: flex-start;
+        background: rgb(211 56 85);
+        gap: 22px;
+    }
+
+    .drop-downs span {
+        font-size: 10px;
+    }
+
+    .drop-downs span:nth-child(1) {
+        opacity: 1;
+        margin: 0px 10px;
+    }
+
+    .container1 {
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+        height: auto;
+        overflow: auto;
+        background-color: rgb(12, 15, 18);
+        color: whitesmoke;
+        padding: 0px 3px 0px 2px;
+    }
+
+    .songlist span p {
+        font-size: 12px;
+        font-weight: normal;
+        padding: 6px;
+    }
+
+    .songlist span i {
+        font-size: 17px;
+    }
+
+    .songlist img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    #section1 {
+        width: 100%;
+        height: 69%;
+    }
+
+    #section2 {
+        background-color: rgb(26, 26, 26);
+        height: auto;
+    }
+
+    .range_line input {
+        /* width: 63vw; */
+        margin: 5px 0px;
+        height: 3px;
+        width: 68%;
+    }
+
+    .range_line {
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        margin: 5px 0px;
+    }
+
+    .mobile_cover {
+        width: 100%;
+        height: 70%;
+        background-color: red;
+    }
+
+    .songlist span p {
+        font-size: 17px;
+        font-weight: normal;
+        padding: 6px;
+    }
+
+    .songlist {
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 0px;
+        padding: 0px 11px;
+        cursor: pointer;
+        height: 64px;
+        gap: 10px;
+    }
+
+    .range_play_pause {
+        position: relative;
+        margin-top: 4px;
+        color: white;
+        justify-content: center;
+        font-size: 20px;
+        gap: 20px;
+    }
+
+    .fa-shuffle {
+        margin-top: 2px;
+        font-size: 18px;
+    }
+
+    #section2 p {
+        text-align: center;
+        padding: 5px 10px 5px 10px;
+        color: white;
+        font-family: 'Lora', serif;
+        letter-spacing: 1px;
+    }
+
+    .range_play_pause {
+        position: relative;
+        margin-top: 4px;
+        color: white;
+        justify-content: center;
+        font-size: 22px;
+        gap: 20px;
+        padding: 0px 0px 7px 0px;
+    }
+
+    #search_dropdown {
+        position: absolute;
+        width: 50%;
+        top: 53px;
+        left: 47%;
+        z-index: 2;
+        background: transparent;
+        opacity: 1;
+        border: none;
+        outline: none;
+        color: white;
+    }
+
+
+    #search_dropdown_ul {
+        background-color: rgb(0, 0, 0);
+        max-height:178px;
+        overflow: scroll;
+        opacity: 0.9;
+    }
+
+    #section2 {
+        background-color: rgb(26, 26, 26);
+        height: 15vh;
+    }
+}
